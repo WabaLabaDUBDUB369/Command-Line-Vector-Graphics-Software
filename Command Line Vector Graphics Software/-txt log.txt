@@ -1,0 +1,7 @@
+rectangle R1 20 10 80 90 
+circle C1 90 100 40 
+group M R1 C1 
+undo 
+ungroup M 
+group M R1 C1 
+redo 
